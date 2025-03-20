@@ -1,0 +1,10 @@
+/build/
+/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock
+# Default ignored files
+/shelf/
+/workspace.xml
+/compiler.xml
+/.gradle/
+/.idea/gradle.xml
+/gradle/wrapper/gradle-wrapper.properties
+/.idea/
