@@ -7,12 +7,13 @@ import br.com.rpires.country_api.cases.country.UpdateCountry;
 import br.com.rpires.country_api.domain.Country;
 import br.com.rpires.country_api.dto.PatchDto;
 import io.swagger.v3.oas.annotations.Operation;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+
 
 @RestController
 @RequestMapping("country")
